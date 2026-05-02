@@ -23,7 +23,6 @@ manifest:
       revision: master
     - name: zmk-dongle-screen
       remote: janpfischer
-      revision: main
-      
+      revision: main      
   self:
     path: config
