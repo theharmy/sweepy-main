@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/zzeneg
     - name: srwi # <-- required for KeyPeek module
       url-base: https://github.com/srwi
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,6 +21,9 @@ manifest:
     - name: zmk-keypeek-layer-notifier # <-- KeyPeek module
       remote: srwi
       revision: master
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: main
       
   self:
     path: config
